@@ -23,7 +23,7 @@ Then run visit.py, dependencies will be installed!
 #### Stuff:
 - keep "Logo.aero" in same directory as this script.
     
-- To Compile exe, run bat in same directory as this script.
+- To Compile exe, run "Build_Windows_Executable.py" in same directory as this script, follow instructions.
 
 - Script takes time between finding good proxies, patience is a virtue.
 
