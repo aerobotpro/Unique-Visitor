@@ -81,14 +81,14 @@ class proxies:
     
 class visitor:
     def visit(url, lag, runs):
-        count = 0;err_count = 0;succ_visits = 0;new_id = 0
+        count = 0;err_count = 0;succ_visits = 0;new_id = 0;ers_remaining1 = ""
         for x in range(0, runs):
             bError = False;count += 1;count_str = str(count)
             try:
                 ip = get("http://bot.whatismyipaddress.com/", headers=user_agent.get_headers(), proxies=proxies.get(), timeout=user.settings.timeout);my_ip=ip.text
                 if len(my_ip) > 20:
                     my_ip = "127.0.0.1"
-                    ers_remaining1 = str(int(user.settings.max_fails - err_count))
+                ers_remaining1 = str(int(user.settings.max_fails - err_count))
                 print(f"\nUsing New Identity: {my_ip} / User-Agents: Rotated\n\nTrying To Visit...")
             except Exception as Error:
                 bError = True
@@ -138,6 +138,45 @@ class visitor:
                         """)
         print(f"\n\nCompleted {count_str} runs!.")
     
+def startup_print():
+    start = input("\nHit Enter To Start!--->")
+    sleep(.2);print("<-------------------|>\r", end="")
+    sleep(.2);print("<-------------------\\>\r", end="")
+    sleep(.2);print("<------------------_->\r", end="")
+    sleep(.2);print("<----------------/--->\r", end="")
+    sleep(.2);print("<--------------|----->\r", end="")
+    sleep(.2);print("<------------\\------->\r", end="")
+    sleep(.2);print("<----------_--------->\r", end="")
+    sleep(.2);print("<-------/------------>\r", end="")
+    sleep(.2);print("<----|--------------->\r", end="")
+    sleep(.2);print("<---\\---------------->\r", end="")
+    sleep(.2);print("<--_----------------->\r", end="")
+    sleep(.2);print("<-/------------------>\r", end="")
+    sleep(.2);print("<|------------------->\r", end="")
+    sleep(.2);print("<\\------------------->\r", end="")
+    sleep(.2);print("<_------------------->\r", end="")
+    sleep(.2);print("</------------------->\r", end="")
+    sleep(.2);print("<|------------------->\r", end="")
+    sleep(.2);print("<\\------------------->\r", end="")
+    sleep(.2);print("<_------------------->\r", end="")
+    sleep(.2);print("</------------------->\r", end="")
+    sleep(.2);print("<|------------------->\r", end="")
+    sleep(.2);print("<-/------------------>\r", end="")
+    sleep(.2);print("<--_----------------->\r", end="")
+    sleep(.2);print("<---\\---------------->\r", end="")
+    sleep(.2);print("<----|--------------->\r", end="")
+    sleep(.2);print("<-------/------------>\r", end="")
+    sleep(.2);print("<----------_--------->\r", end="")
+    sleep(.2);print("<------------\\------->\r", end="")
+    sleep(.2);print("<--------------|----->\r", end="")
+    sleep(.2);print("<--------------/----->\r", end="")
+    sleep(.2);print("<--------------_----->\r", end="")
+    sleep(.2);print("<--------------\\----->\r", end="")
+    sleep(.2);print("<-----------------|-->\r", end="")
+    sleep(.2);print("<------------------/->\r", end="")
+    sleep(.2);print("<-------------------_>\r", end="")
+    sleep(.2);print("<-------------------\\>\r", end="")
+    sleep(.2);print("<-------------------|>\r", end="")
 
         
 def do():
@@ -182,8 +221,9 @@ Content-Type:
         else: _ = system('clear') 
         runs = int(input("\nEnter Loop Amount: "))
         if name == 'nt': _ = system('cls')
-        else: _ = system('clear') 
-        start = input("\nHit Enter To Start!--->");sleep(.5);print("<-----\\------\r", end="");sleep(.5);print("<----|-----\r", end="");sleep(.5);print("<----/-----\r", end="");sleep(.5);print("<---|-----\r", end="");sleep(.5);print("<-\\-------\r", end="")
+        else: _ = system('clear')
+        start = input("\nHit Enter To Start!--->")
+        startup_print() # COMMENT OUT TO REMOVE STARTUP PRINT
     except Exception as d:
         print(str(d))
         main()
@@ -199,7 +239,11 @@ Content-Type:
 def main():
     logo_and_setup()
     do()
-    just_flexing = exit(0)
-    return just_flexing
+    idied_peacefully = exit(0)
+    return idied_peacefully
+
+
+def startup_print():
+    sleep(.09);print("<-------------------|>\r", end="");sleep(.09);print("<-------------------\\>\r", end="");sleep(.09);print("<------------------_->\r", end="");sleep(.09);print("<----------------/--->\r", end="");sleep(.09);print("<--------------|----->\r", end="");sleep(.09);print("<------------\\------->\r", end="");sleep(.09);print("<----------_--------->\r", end="");sleep(.09);print("<-------/------------>\r", end="");sleep(.09);print("<----|--------------->\r", end="");sleep(.09);print("<---\\---------------->\r", end="");sleep(.09);print("<--_----------------->\r", end="");sleep(.09);print("<-/------------------>\r", end="");sleep(.09);print("<|------------------->\r", end="");sleep(.09);print("<\\------------------->\r", end="");sleep(.09);print("<_------------------->\r", end="");sleep(.09);print("</------------------->\r", end="");sleep(.09);print("<|------------------->\r", end="");sleep(.09);print("<\\------------------->\r", end="");sleep(.09);print("<_------------------->\r", end="");sleep(.09);print("</------------------->\r", end="");sleep(.09);print("<|------------------->\r", end="");sleep(.09);print("<-/------------------>\r", end="");sleep(.09);print("<--_----------------->\r", end="");sleep(.09);print("<---\\---------------->\r", end="");sleep(.09);print("<----|--------------->\r", end="");sleep(.09);print("<-------/------------>\r", end="");sleep(.09);print("<----------_--------->\r", end="");sleep(.09);print("<------------\\------->\r", end="");sleep(.09);print("<--------------|----->\r", end="");sleep(.09);print("<--------------/----->\r", end="");sleep(.09);print("<--------------_----->\r", end="");sleep(.09);print("<--------------\\----->\r", end="");sleep(.09);print("<-----------------|-->\r", end="");sleep(.09);print("<------------------/->\r", end="");sleep(.09);print("<-------------------_>\r", end="");sleep(.09);print("<-------------------\\>\r", end="");sleep(.09);print("<-------------------|>\r", end="")
     
 main()    
