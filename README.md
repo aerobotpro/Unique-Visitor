@@ -15,9 +15,9 @@
 ##### It might be unstable because it's a beta and I might be working on it!
 ------------------------------------------------------------------------------------------------------
 ### Dependencies
-[python3](https://www.python.org/downloads/)
+[Python3.6 (or greater)](https://www.python.org/downloads/)
 
-then run! Dependencies will be installed!
+Then run visit.py, dependencies will be installed!
 
 
 #### Stuff:
