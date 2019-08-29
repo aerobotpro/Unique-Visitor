@@ -13,8 +13,8 @@
 ##### A rotating proxy is a proxy that redirects your connections to an other proxy and changes the proxy every so often.
 ##### This IPs are for beta testing our HTTP rotating proxies, enjoy while it lasts
 ##### It might be unstable because it's a beta and I might be working on it!
-
-#### Deps:
+------------------------------------------------------------------------------------------------------
+### Deps:
     - python3 environment
       -pip or pip3 installs:
         - pip3 install pyinstaller #for exe
