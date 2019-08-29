@@ -15,10 +15,10 @@
 ##### It might be unstable because it's a beta and I might be working on it!
 ------------------------------------------------------------------------------------------------------
 ### Deps:
-    - [python3](https://www.python.org/downloads/)
-      -pip or pip3 installs:
-        - pip3 install pyinstaller #for exe
-        - pip3 install requests
+    [python3](https://www.python.org/downloads/)
+     -pip or pip3 installs:
+      - pip3 install pyinstaller #for exe
+      - pip3 install requests
 
 #### Stuff:
 - keep "Logo.aero" in same directory as this script.
