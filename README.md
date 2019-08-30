@@ -1,5 +1,7 @@
 # Unique-Visitor
-#### Get you some unique visits!!!
+#### A practical script, Unique Visitor sends uniquely spoofed/rotated visits (GET requests) to HTTP Addresses
+#### in order to manipulate a sites natural "hit count". Some advertisers pay a handful for views/clicks, making 
+#### this script a genuine factor in todays cybercrime channels, so I made it :o.
 
 ------------------------------------------------------------------------------------------------------
 
