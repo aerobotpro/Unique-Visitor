@@ -21,7 +21,7 @@ class user:
         max_fails_stdout = str(max_fails)
         debug_mode = False #<<<<############################################################<<<<<<<<<<<Enable Debug Mode ["True" or "False"]<<<<<<<<<<<||||||||||||||||||||||||||||||||||||||||||||||
         timeout = 8 #Seconds<<<<####################################################################<<<<<<<<<<<Set Timeout (In seconds) For Requests<<<<<<<<<<<|||||||||||||||||||||||||||||||||||||||||||||
-        api = "https://api.aero-bot.pro/api/proxies.txt" #<<<<####################################<<<<<<<<<<< Set API! Ours Is a SOCKS-like Proxy like proxyscrape-BETA <<<<<<<<<<<|||||||||||||||||||||||||||||||||||||||||||||
+        api = "https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=5000&country=all&ssl=all&anonymity=anonymous" #<<<<####################################<<<<<<<<<<< Set API! Ours Is a SOCKS-like Proxy like proxyscrape-BETA <<<<<<<<<<<|||||||||||||||||||||||||||||||||||||||||||||
 
 def logo_and_setup():
         #ACME Progress Bar
