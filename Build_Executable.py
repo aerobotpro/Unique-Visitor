@@ -10,7 +10,7 @@ else:
     if name == 'nt': _ = system('cls')
     else: _ = system('clear')   
     print("Continuing..")
-print("\n[Compile an exe] *Run from same directory as script!!*\n")
+print("\n[Compile an executable] *Run from same directory as script!!*\n")
 name = input("Whats your filename?: ")
 bicon = str(input("Are You Adding An Icon?(y/n): "))     
 if bicon == "y":
