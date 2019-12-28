@@ -152,15 +152,13 @@ http://""")
     print("\nChecking URL So We Dont Waste Our Time...")
     try:
         r = get(url);print("\nStatus Code: "+str(r.status_code))
-        content = r.headers["Content-Type"];connection = r.headers["Connection"];cookie = r.headers["Set-Cookie"]
+        content = r.headers["Content-Type"];connection = r.headers["Connection"]
         print("\nSome Error/s are normal right here <<")
         print(f"""
     Header Info For {url}:
 ---------------------------------------------
 Connection:
 {connection}
-Cookie:
-{cookie}
 Content-Type:
 {content}
 ---------------------------------------------
