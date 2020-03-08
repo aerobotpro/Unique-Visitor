@@ -1,4 +1,5 @@
-# Unique-Visitor (Broken due to proxyscrape discontinuing dynamic proxies :'( ) 
+# Unique-Visitor (Broken due to proxyscrape discontinuing free back-connecting proxies. ) 
+# Please buy a plan with proxyscrape.com to use this tool :)
 #### A practical script, Unique Visitor sends uniquely spoofed/rotated visits (GET requests) to HTTP Addresses
 #### in order to manipulate a sites natural "hit count". Some advertisers pay a handful for views/clicks, making 
 #### this script a potential factor in todays cybercrime channels, so I made it :o.
